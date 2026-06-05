@@ -6,10 +6,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.preprocessing import LabelEncoder
 
-# 1. GENERACIÓN DEL DATASET (300 MUESTRAS)
-
+# 1. GENERACIÓN DEL DATASET
 np.random.seed(100)
-
 estaciones = ['Centro','Terminal','La Paz','Estacion Tren','Universidad','Mercado','Hospital','Parque']
 horas = ['mañana','tarde','noche']
 dias = ['laboral','fin_de_semana']
@@ -30,7 +28,6 @@ tiempos = {
 
 registros = []
 n_muestras = 300
-
 for _ in range(n_muestras):
     orig = np.random.choice(estaciones)
     dest = np.random.choice([e for e in estaciones if e != orig])
@@ -59,15 +56,12 @@ for _ in range(n_muestras):
     })
 
 df = pd.DataFrame(registros)
-
-
 print("DATASET GENERADO EXITOSAMENTE (ZIPAQUIRÁ)")
 print("=" * 65)
 print(df.head(10).to_string(index=False))
 print(f"\nTotal registros: {len(df)} | Distribución clases (0=No Óptima, 1=Óptima):")
 print(df['ruta_optima'].value_counts().to_string())
-
-# PREPROCESAMIENTO AVANZADO (LABEL ENCODER)
+)
 
 le_dict = {}
 cols_categoricas = ['estacion_origen', 'estacion_destino', 'hora_del_dia', 'dia_semana', 'congestion']
@@ -83,9 +77,6 @@ y = df_enc['ruta_optima']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
-
-# ENTRENAMIENTO PARAMETRIZADO
-
 modelo_valen = DecisionTreeClassifier(
     criterion='entropy',
     max_depth=4,
@@ -94,9 +85,6 @@ modelo_valen = DecisionTreeClassifier(
     random_state=42
 )
 modelo_valen.fit(X_train, y_train)
-
-# EVALUACIÓN TÉCNICA DEL MODELO
-
 y_pred = modelo_valen.predict(X_test)
 print("\n" + "=" * 65)
 print("RENDIMIENTO")
@@ -106,8 +94,8 @@ print(classification_report(y_test, y_pred, target_names=['No Óptima', 'Óptima
 print("Matriz de Confusión Operativa:")
 print(confusion_matrix(y_test, y_pred))
 
-# GRÁFICO EN TERMINAL
 
+# GRÁFICO EN TERMINAL
 print("\n" + "=" * 65)
 print("IMPACTO DE CADA VARIABLE EN EL SISTEMA")
 importancias = pd.Series(modelo_valen.feature_importances_, index=X.columns)
@@ -116,10 +104,8 @@ for feat, imp in importancias_ord.items():
     barra = "" * int(imp * 40)
     print(f"  {feat:<22} {barra} {imp:.4f}")
 
-# 6. GRÁFICO DEL ÁRBOL 
-
+# GRÁFICO DEL ÁRBOL 
 fig, ax = plt.subplots(figsize=(18, 9), facecolor='#F8F9FA')
-
 arbol_visual = plot_tree(
     modelo_valen,
     feature_names=list(X.columns),
@@ -128,11 +114,9 @@ arbol_visual = plot_tree(
     rounded=True,
     fontsize=9,
     ax=ax,
-    impurity=False,  # Oculta la entropía numérica para limpiar el diseño
-    proportion=True  # Muestra porcentajes estilizados
+    impurity=False,  
+    proportion=True  
 )
-
-# Paleta personalizada: Esmeralda para Óptimas, Arena para No Óptimas, Gris para preguntas
 color_no_optima = '#E6CCB2'
 color_optima = '#D8F3DC'
 
@@ -150,14 +134,14 @@ plt.title(
     fontsize=14, fontweight='bold', color='#1D3557', pad=20
 )
 
-# Guardar
+# GUARDAR IMAGEN
 nombre_imagen = "arbol_supervisado_exclusivo.png"
 plt.savefig(nombre_imagen, dpi=300, bbox_inches='tight', facecolor=fig.get_facecolor())
 print("\n" + "-" * 65)
 print("=" * 65)
 plt.show()
 
-# 7. EXPORTAR EL DATASET GENERADO A UN ARCHIVO EXCEL/CSV
+# GUARDAR ARCHIVO
 df.to_csv('dataset_zipaquira_rutas.csv', index=False)
 print("\n" + "=" * 65)
 print("Se ha guardado el archivo en tu carpeta.")
