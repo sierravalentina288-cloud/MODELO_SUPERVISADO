@@ -1,0 +1,301 @@
+estacion_origen,estacion_destino,hora_del_dia,dia_semana,costo_ruta,num_transbordos,congestion,ruta_optima
+Centro,Terminal,mañana,laboral,11.4,0,alta,0
+Mercado,La Paz,noche,laboral,7.6,1,baja,1
+Centro,Mercado,mañana,laboral,10.9,3,media,0
+Mercado,Parque,noche,fin_de_semana,17.9,0,media,0
+Mercado,Hospital,mañana,laboral,8.7,3,media,0
+Parque,Terminal,tarde,laboral,17.3,3,baja,0
+La Paz,Terminal,tarde,laboral,15.0,2,media,0
+Estacion Tren,Centro,noche,fin_de_semana,20.0,0,media,0
+Hospital,Universidad,noche,laboral,18.3,2,media,0
+La Paz,Terminal,mañana,fin_de_semana,24.6,2,media,0
+Mercado,Universidad,noche,laboral,22.5,3,media,0
+Hospital,Centro,tarde,fin_de_semana,31.2,2,alta,0
+Estacion Tren,Mercado,noche,fin_de_semana,8.9,3,baja,0
+Estacion Tren,Terminal,mañana,laboral,34.9,0,media,0
+Parque,Hospital,noche,laboral,3.2,2,baja,0
+Parque,La Paz,tarde,fin_de_semana,31.2,1,alta,0
+Hospital,La Paz,noche,laboral,27.5,3,alta,0
+Estacion Tren,Hospital,mañana,laboral,15.3,0,media,0
+Terminal,Centro,mañana,fin_de_semana,8.6,2,alta,0
+Mercado,Parque,noche,laboral,27.5,3,alta,0
+Estacion Tren,Parque,tarde,laboral,15.0,0,media,0
+Mercado,Hospital,tarde,fin_de_semana,4.3,0,baja,1
+Hospital,La Paz,tarde,laboral,11.5,0,baja,1
+La Paz,Centro,tarde,laboral,5.6,0,media,1
+La Paz,Hospital,mañana,laboral,16.8,1,baja,0
+Terminal,Centro,noche,laboral,5.6,0,media,1
+Estacion Tren,La Paz,noche,fin_de_semana,2.8,2,alta,0
+Mercado,Universidad,tarde,laboral,11.5,1,baja,1
+Centro,Terminal,tarde,laboral,9.8,2,alta,0
+Parque,Hospital,noche,fin_de_semana,3.2,2,media,0
+Mercado,La Paz,noche,fin_de_semana,5.3,2,media,0
+Hospital,Estacion Tren,mañana,fin_de_semana,11.5,2,media,0
+La Paz,Hospital,tarde,fin_de_semana,15.1,2,baja,0
+La Paz,Universidad,tarde,laboral,26.9,0,alta,0
+Parque,Terminal,mañana,laboral,39.3,2,media,0
+Terminal,La Paz,noche,fin_de_semana,13.8,3,baja,0
+Estacion Tren,Parque,noche,laboral,16.2,1,baja,0
+Hospital,Mercado,mañana,laboral,11.4,1,alta,0
+Hospital,Estacion Tren,tarde,laboral,26.9,1,alta,0
+Centro,Terminal,tarde,fin_de_semana,7.3,3,alta,0
+Estacion Tren,Parque,tarde,fin_de_semana,16.5,1,alta,0
+Terminal,Mercado,mañana,fin_de_semana,8.8,2,baja,0
+Estacion Tren,Parque,mañana,fin_de_semana,19.7,3,media,0
+Mercado,La Paz,mañana,fin_de_semana,18.9,1,baja,0
+La Paz,Centro,noche,laboral,4.2,1,media,1
+Hospital,Parque,mañana,laboral,5.0,0,baja,1
+Estacion Tren,Centro,tarde,fin_de_semana,18.4,3,baja,0
+La Paz,Hospital,mañana,fin_de_semana,12.9,0,alta,0
+Centro,Universidad,noche,fin_de_semana,4.9,2,baja,0
+Parque,Hospital,mañana,fin_de_semana,3.8,2,baja,0
+Parque,La Paz,mañana,laboral,37.1,1,media,0
+Parque,Terminal,mañana,fin_de_semana,18.9,3,baja,0
+Centro,Terminal,tarde,fin_de_semana,5.6,1,media,1
+Centro,Estacion Tren,noche,laboral,16.8,0,media,0
+Universidad,Terminal,tarde,fin_de_semana,11.0,0,alta,0
+Mercado,La Paz,mañana,laboral,24.0,2,media,0
+Terminal,Mercado,noche,laboral,9.8,0,media,1
+Estacion Tren,Parque,noche,laboral,29.4,2,alta,0
+Mercado,Universidad,tarde,fin_de_semana,11.2,0,media,1
+Parque,Centro,noche,laboral,23.9,0,media,0
+Centro,La Paz,noche,fin_de_semana,2.4,0,baja,1
+Terminal,Hospital,noche,laboral,25.3,3,media,0
+Universidad,Hospital,noche,fin_de_semana,8.9,2,baja,0
+Parque,Mercado,tarde,laboral,14.4,1,baja,0
+Parque,Universidad,noche,fin_de_semana,4.2,3,media,0
+Centro,La Paz,tarde,fin_de_semana,4.2,3,media,0
+Centro,Parque,tarde,laboral,34.3,3,alta,0
+Universidad,Parque,noche,fin_de_semana,5.5,3,alta,0
+Universidad,Terminal,noche,laboral,8.4,2,media,0
+La Paz,Centro,tarde,laboral,7.3,3,alta,0
+Terminal,Universidad,tarde,laboral,14.7,3,alta,0
+Parque,Centro,noche,fin_de_semana,15.4,3,baja,0
+La Paz,Estacion Tren,mañana,laboral,5.7,1,alta,0
+Estacion Tren,Parque,noche,laboral,18.4,2,baja,0
+Mercado,Terminal,tarde,laboral,13.1,2,media,0
+Parque,Mercado,tarde,fin_de_semana,20.5,0,baja,0
+Terminal,Centro,mañana,fin_de_semana,8.6,3,alta,0
+Hospital,Estacion Tren,tarde,fin_de_semana,7.6,3,baja,0
+Estacion Tren,Centro,tarde,fin_de_semana,29.4,2,alta,0
+Universidad,Estacion Tren,tarde,laboral,9.4,0,media,1
+Parque,Estacion Tren,tarde,laboral,24.5,2,alta,0
+La Paz,Terminal,noche,laboral,6.5,3,baja,0
+Parque,Terminal,mañana,laboral,40.0,1,alta,0
+La Paz,Centro,noche,laboral,5.5,3,alta,0
+Centro,La Paz,mañana,laboral,6.6,2,media,0
+Universidad,Centro,mañana,fin_de_semana,22.9,3,media,0
+Estacion Tren,Centro,mañana,laboral,18.5,0,baja,0
+Centro,Parque,noche,fin_de_semana,6.3,1,media,1
+Universidad,Estacion Tren,mañana,laboral,8.4,0,baja,1
+Estacion Tren,Terminal,noche,laboral,21.1,0,media,0
+Terminal,Mercado,tarde,fin_de_semana,12.9,2,alta,0
+Mercado,Universidad,noche,fin_de_semana,15.1,2,alta,0
+Universidad,Estacion Tren,mañana,fin_de_semana,8.2,3,media,0
+Terminal,Universidad,noche,fin_de_semana,8.3,3,alta,0
+Parque,Estacion Tren,tarde,fin_de_semana,5.4,1,baja,1
+Parque,La Paz,tarde,fin_de_semana,25.7,1,alta,0
+Centro,Parque,noche,laboral,12.9,3,alta,0
+Estacion Tren,Mercado,tarde,fin_de_semana,23.9,1,media,0
+Parque,Mercado,tarde,laboral,35.6,1,media,0
+Hospital,Parque,tarde,fin_de_semana,3.2,0,baja,1
+Centro,Hospital,tarde,laboral,12.2,3,alta,0
+Universidad,Mercado,mañana,laboral,30.2,3,baja,0
+Parque,La Paz,mañana,fin_de_semana,15.1,3,baja,0
+Parque,Terminal,mañana,laboral,45.7,3,alta,0
+Hospital,Estacion Tren,mañana,laboral,20.0,3,alta,0
+La Paz,Universidad,mañana,laboral,18.5,3,baja,0
+Estacion Tren,La Paz,tarde,fin_de_semana,3.7,3,alta,0
+Parque,Hospital,tarde,laboral,7.3,3,alta,0
+Parque,Universidad,noche,laboral,4.3,0,baja,1
+Terminal,Estacion Tren,mañana,laboral,31.9,3,baja,0
+Estacion Tren,Mercado,mañana,fin_de_semana,16.4,2,baja,0
+Parque,Hospital,noche,fin_de_semana,3.2,2,media,0
+Parque,Hospital,noche,laboral,4.2,0,media,1
+Centro,Parque,tarde,fin_de_semana,22.0,3,alta,0
+Estacion Tren,Parque,tarde,laboral,15.8,0,baja,0
+Estacion Tren,Universidad,noche,laboral,7.0,1,media,1
+Parque,Estacion Tren,mañana,laboral,8.4,0,baja,1
+Centro,Parque,noche,laboral,25.3,3,media,0
+La Paz,Estacion Tren,mañana,laboral,4.4,3,media,0
+Universidad,Terminal,tarde,fin_de_semana,6.5,0,baja,1
+Estacion Tren,Mercado,noche,laboral,16.8,1,media,0
+Parque,Estacion Tren,noche,fin_de_semana,8.9,2,baja,0
+Centro,Hospital,tarde,fin_de_semana,19.4,1,baja,0
+Hospital,Parque,tarde,fin_de_semana,5.5,3,alta,0
+Terminal,Hospital,noche,laboral,7.6,2,baja,0
+Estacion Tren,Parque,noche,fin_de_semana,13.8,0,alta,0
+Estacion Tren,Centro,mañana,fin_de_semana,19.3,2,alta,0
+Estacion Tren,La Paz,mañana,fin_de_semana,2.5,0,baja,1
+Centro,Parque,tarde,fin_de_semana,8.4,3,media,0
+Universidad,Mercado,tarde,fin_de_semana,25.3,0,media,0
+Mercado,Hospital,tarde,fin_de_semana,5.6,2,media,0
+Estacion Tren,Hospital,mañana,laboral,17.5,0,media,0
+Centro,Parque,mañana,laboral,25.7,0,alta,0
+La Paz,Mercado,noche,laboral,13.0,0,baja,0
+La Paz,Universidad,mañana,fin_de_semana,18.9,2,baja,0
+Hospital,Parque,noche,fin_de_semana,3.2,3,media,0
+Universidad,Centro,mañana,fin_de_semana,21.4,3,baja,0
+Mercado,Terminal,tarde,fin_de_semana,9.8,0,media,1
+Hospital,Parque,noche,fin_de_semana,3.2,0,media,1
+La Paz,Terminal,noche,fin_de_semana,9.7,2,baja,0
+Parque,Centro,tarde,fin_de_semana,27.5,3,alta,0
+Terminal,Universidad,mañana,laboral,10.1,2,baja,0
+Centro,Mercado,noche,laboral,7.0,1,media,1
+Centro,Estacion Tren,mañana,fin_de_semana,36.4,2,alta,0
+Terminal,Centro,noche,fin_de_semana,4.2,0,media,1
+Terminal,Estacion Tren,noche,fin_de_semana,16.8,2,media,0
+Estacion Tren,Parque,mañana,fin_de_semana,9.8,2,media,0
+Universidad,Hospital,noche,laboral,5.4,1,baja,1
+Parque,Estacion Tren,mañana,fin_de_semana,17.6,1,baja,0
+La Paz,Estacion Tren,tarde,laboral,3.7,0,media,1
+Terminal,Centro,tarde,fin_de_semana,4.3,2,baja,0
+Hospital,Centro,noche,laboral,18.3,0,media,0
+Parque,Terminal,tarde,fin_de_semana,20.5,2,baja,0
+Hospital,Terminal,tarde,laboral,13.1,1,media,0
+Universidad,Terminal,noche,fin_de_semana,4.9,2,baja,0
+Mercado,Centro,tarde,fin_de_semana,5.4,1,baja,1
+Estacion Tren,Parque,mañana,fin_de_semana,21.4,1,alta,0
+Mercado,Parque,mañana,fin_de_semana,12.6,0,baja,0
+Parque,Terminal,noche,fin_de_semana,12.4,1,alta,0
+La Paz,Centro,noche,laboral,5.5,0,alta,0
+Hospital,Terminal,tarde,laboral,16.8,0,media,0
+La Paz,Terminal,noche,laboral,12.9,0,alta,0
+Estacion Tren,La Paz,mañana,laboral,5.7,1,alta,0
+Universidad,Terminal,mañana,laboral,10.1,3,baja,0
+Estacion Tren,Terminal,mañana,laboral,28.4,0,media,0
+Centro,Hospital,mañana,fin_de_semana,10.7,3,alta,0
+Universidad,Centro,mañana,fin_de_semana,12.6,3,baja,0
+Hospital,La Paz,noche,laboral,25.3,2,media,0
+Estacion Tren,Hospital,tarde,laboral,16.8,2,media,0
+Universidad,La Paz,tarde,fin_de_semana,11.9,0,baja,1
+Hospital,Terminal,mañana,fin_de_semana,36.4,2,alta,0
+Estacion Tren,Universidad,tarde,laboral,9.4,0,media,1
+Centro,Universidad,mañana,laboral,17.1,1,alta,0
+Centro,Mercado,noche,fin_de_semana,5.3,0,media,1
+Hospital,La Paz,tarde,laboral,41.6,1,alta,0
+Estacion Tren,Centro,mañana,laboral,42.8,1,alta,0
+Mercado,La Paz,mañana,laboral,21.8,0,baja,0
+Mercado,Terminal,noche,fin_de_semana,7.4,0,media,1
+Centro,Parque,mañana,fin_de_semana,25.7,2,alta,0
+Centro,Hospital,mañana,laboral,19.7,1,media,0
+Estacion Tren,La Paz,mañana,fin_de_semana,3.3,0,media,1
+Universidad,La Paz,mañana,laboral,34.3,2,alta,0
+Mercado,Universidad,mañana,laboral,18.5,2,baja,0
+Parque,Hospital,mañana,laboral,6.6,0,media,1
+Terminal,Estacion Tren,tarde,laboral,15.0,0,media,0
+Parque,Universidad,tarde,fin_de_semana,4.3,3,baja,0
+Estacion Tren,Parque,mañana,laboral,15.1,1,baja,0
+Terminal,Centro,mañana,fin_de_semana,6.6,0,media,1
+Parque,Hospital,noche,laboral,5.5,1,alta,0
+Mercado,La Paz,mañana,fin_de_semana,30.0,1,alta,0
+Parque,Terminal,mañana,laboral,20.0,0,alta,0
+Terminal,La Paz,noche,fin_de_semana,20.7,0,alta,0
+Estacion Tren,Universidad,mañana,fin_de_semana,6.3,1,baja,1
+Centro,Mercado,noche,laboral,7.0,2,media,0
+Universidad,Hospital,mañana,fin_de_semana,11.3,3,baja,0
+Terminal,La Paz,noche,fin_de_semana,13.7,0,media,0
+Centro,Estacion Tren,noche,fin_de_semana,26.2,3,alta,0
+Universidad,Centro,noche,laboral,20.2,1,alta,0
+Parque,Hospital,noche,laboral,5.5,2,alta,0
+Universidad,Estacion Tren,noche,laboral,5.4,0,baja,1
+Parque,Centro,tarde,fin_de_semana,23.9,0,alta,0
+Estacion Tren,La Paz,mañana,fin_de_semana,2.5,1,baja,1
+Hospital,Centro,noche,laboral,21.1,0,media,0
+Hospital,La Paz,tarde,laboral,15.0,1,media,0
+Parque,Mercado,noche,fin_de_semana,9.7,3,baja,0
+Hospital,Centro,tarde,laboral,34.3,1,alta,0
+Parque,Universidad,tarde,laboral,9.8,3,alta,0
+Estacion Tren,Hospital,mañana,laboral,10.1,1,baja,1
+La Paz,Centro,tarde,laboral,5.6,2,media,0
+Centro,Mercado,mañana,fin_de_semana,6.3,0,baja,1
+Estacion Tren,Parque,mañana,fin_de_semana,23.6,1,alta,0
+Mercado,La Paz,tarde,laboral,20.2,1,baja,0
+Parque,Estacion Tren,noche,laboral,31.2,2,alta,0
+Centro,La Paz,tarde,fin_de_semana,5.5,2,alta,0
+Parque,Universidad,mañana,fin_de_semana,6.6,1,media,1
+La Paz,Universidad,noche,fin_de_semana,8.1,2,baja,0
+Universidad,La Paz,noche,laboral,8.4,2,media,0
+Estacion Tren,Centro,noche,fin_de_semana,13.8,2,baja,0
+Universidad,Mercado,tarde,laboral,27.4,2,baja,0
+Parque,Terminal,tarde,laboral,15.0,2,media,0
+Hospital,Mercado,tarde,laboral,7.5,0,media,1
+Centro,Mercado,noche,laboral,9.2,3,alta,0
+Terminal,Estacion Tren,tarde,fin_de_semana,33.0,3,alta,0
+Universidad,Parque,tarde,laboral,7.5,3,media,0
+La Paz,Estacion Tren,mañana,laboral,5.7,0,alta,0
+La Paz,Centro,noche,fin_de_semana,4.1,1,alta,0
+Parque,Mercado,tarde,fin_de_semana,9.2,2,alta,0
+Estacion Tren,Centro,tarde,fin_de_semana,20.5,1,baja,0
+Terminal,Universidad,noche,fin_de_semana,6.3,0,media,1
+La Paz,Universidad,tarde,fin_de_semana,18.4,1,alta,0
+Universidad,Mercado,mañana,laboral,17.5,3,media,0
+La Paz,Universidad,mañana,laboral,10.9,2,media,0
+Estacion Tren,Universidad,noche,fin_de_semana,5.3,0,media,1
+La Paz,Centro,mañana,laboral,8.6,0,alta,0
+Estacion Tren,Parque,mañana,laboral,21.8,0,media,0
+Estacion Tren,Terminal,tarde,laboral,26.9,0,alta,0
+Parque,La Paz,tarde,laboral,35.6,0,media,0
+Centro,Universidad,mañana,fin_de_semana,10.1,3,baja,0
+Hospital,Parque,noche,laboral,5.5,3,alta,0
+Mercado,Universidad,tarde,laboral,46.5,0,alta,0
+Hospital,Universidad,mañana,fin_de_semana,24.6,3,media,0
+Estacion Tren,Universidad,mañana,fin_de_semana,8.2,2,media,0
+Universidad,Centro,mañana,laboral,25.2,0,baja,0
+Estacion Tren,Hospital,mañana,fin_de_semana,32.1,0,alta,0
+Parque,Mercado,noche,fin_de_semana,19.0,3,media,0
+Hospital,Parque,mañana,fin_de_semana,6.4,0,alta,0
+La Paz,Estacion Tren,noche,laboral,2.8,2,media,0
+Universidad,Terminal,noche,laboral,6.5,3,baja,0
+Parque,Estacion Tren,tarde,fin_de_semana,12.6,3,media,0
+Estacion Tren,Terminal,mañana,laboral,21.8,0,media,0
+Hospital,Centro,noche,fin_de_semana,6.3,2,media,0
+Centro,Mercado,tarde,laboral,12.2,2,alta,0
+Centro,Terminal,mañana,fin_de_semana,5.0,1,baja,1
+Universidad,Estacion Tren,noche,laboral,9.2,3,alta,0
+Universidad,Terminal,tarde,laboral,8.6,3,baja,0
+Parque,Centro,tarde,laboral,7.2,0,baja,1
+Parque,La Paz,noche,fin_de_semana,20.0,3,media,0
+Hospital,La Paz,noche,fin_de_semana,7.4,2,media,0
+Centro,Parque,tarde,fin_de_semana,5.4,2,baja,0
+Hospital,Estacion Tren,noche,fin_de_semana,9.6,0,alta,0
+La Paz,Mercado,noche,laboral,25.7,3,alta,0
+Mercado,Hospital,noche,fin_de_semana,5.5,2,alta,0
+Universidad,Parque,noche,laboral,7.3,0,alta,0
+Hospital,Terminal,tarde,fin_de_semana,11.9,1,baja,1
+Terminal,Parque,tarde,fin_de_semana,25.3,2,media,0
+Terminal,La Paz,mañana,laboral,17.5,2,media,0
+La Paz,Parque,mañana,fin_de_semana,40.7,2,alta,0
+Mercado,Universidad,tarde,fin_de_semana,11.9,2,baja,0
+Centro,Mercado,tarde,fin_de_semana,9.2,3,alta,0
+La Paz,Centro,tarde,laboral,4.3,3,baja,0
+Hospital,Terminal,mañana,laboral,37.1,0,media,0
+Estacion Tren,Hospital,noche,laboral,11.0,2,alta,0
+La Paz,Centro,tarde,laboral,5.6,0,media,1
+Estacion Tren,Mercado,mañana,fin_de_semana,21.4,2,alta,0
+Mercado,Centro,noche,fin_de_semana,4.0,2,baja,0
+La Paz,Hospital,tarde,fin_de_semana,17.3,2,baja,0
+Parque,Universidad,tarde,fin_de_semana,7.3,2,alta,0
+Parque,Hospital,mañana,fin_de_semana,3.8,1,baja,1
+Terminal,Universidad,tarde,fin_de_semana,6.5,0,baja,1
+Parque,Estacion Tren,mañana,laboral,28.6,0,baja,0
+Universidad,Centro,tarde,laboral,28.1,3,media,0
+Terminal,Centro,noche,fin_de_semana,3.2,1,baja,1
+Terminal,Estacion Tren,noche,fin_de_semana,19.0,0,media,0
+Hospital,Universidad,mañana,fin_de_semana,7.6,2,baja,0
+Hospital,Centro,mañana,fin_de_semana,10.7,2,alta,0
+Mercado,Hospital,mañana,fin_de_semana,5.0,2,baja,0
+Mercado,Centro,mañana,fin_de_semana,10.7,1,alta,0
+Terminal,Hospital,noche,laboral,25.3,2,media,0
+Universidad,La Paz,mañana,laboral,26.2,3,media,0
+Hospital,Mercado,noche,fin_de_semana,4.2,0,media,1
+Parque,Terminal,tarde,fin_de_semana,8.4,0,media,1
+Universidad,Centro,tarde,laboral,35.6,1,media,0
+Estacion Tren,Parque,noche,fin_de_semana,13.7,3,media,0
+Centro,Estacion Tren,noche,laboral,23.9,1,media,0
+La Paz,Universidad,noche,laboral,15.1,0,baja,0
+Universidad,Estacion Tren,tarde,laboral,12.2,3,alta,0
+Parque,Centro,noche,fin_de_semana,6.3,2,media,0
+Parque,Universidad,noche,laboral,7.3,2,alta,0
+Centro,Estacion Tren,noche,fin_de_semana,19.3,1,alta,0
+Centro,Mercado,noche,fin_de_semana,4.0,0,baja,1
