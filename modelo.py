@@ -61,7 +61,7 @@ print("=" * 65)
 print(df.head(10).to_string(index=False))
 print(f"\nTotal registros: {len(df)} | Distribución clases (0=No Óptima, 1=Óptima):")
 print(df['ruta_optima'].value_counts().to_string())
-)
+
 
 le_dict = {}
 cols_categoricas = ['estacion_origen', 'estacion_destino', 'hora_del_dia', 'dia_semana', 'congestion']
